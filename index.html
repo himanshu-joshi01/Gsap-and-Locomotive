@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSAP Animations</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-[100%] w-[100%] bg-black overscroll-x-none overflow-x-hidden">
+    <div class="main relative w-full bg-black text-white px-5 py-3">
+        <div class="nav h-8 text-zinc-300 uppercase flex items-center justify-between text-2xl">
+            <h3>himanshu joshi</h3>
+
+            <div class="flex gap-12">
+                <h3>instagram</h3>
+                <h3>gallery</h3>
+                <h3>contact</h3>
+            </div>
+        </div>
+
+        <div
+            class="relative hero flex flex-col justify-center mx-[10%] h-screen mt-5 leading-[7.5rem] text-[10rem] w-[80%] justify-center">
+            <div class="z-10">
+                <h1 class="uppercase">Hello I'm</h1>
+                <h1 class="uppercase text-center ml-10">himanshu</h1>
+                <h1 class="uppercase text-center">joshi</h1>
+            </div>
+            <img class="img3 absolute h-[25rem] w-[17rem] object-cover top-[10%] left-[41%] rotate-[20deg]"
+                src="https://images.pexels.com/photos/1813947/pexels-photo-1813947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="" />
+            <img class="img2 absolute h-[25rem] w-[17rem] object-cover top-[10%] left-[41%] rotate-[10deg]"
+            src="https://images.pexels.com/photos/1777479/pexels-photo-1777479.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="" />
+            <img class="img1 absolute h-[25rem] w-[17rem] object-cover top-[10%] left-[41%]"
+            src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="" />
+             
+        </div>
+    </div>
+    <div id="page1" class="w-full h-screen flex justify-start items-center">
+        <div class="circle1 h-52 w-52 bg-gradient-to-r from-green-900  to-zinc-300 "></div>
+        <div class="circle2 h-40 w-40 bg-gradient-to-r from-blue-500 to-lime-900 "></div>
+        <div class="circle3 h-28 w-28 bg-gradient-to-r bg-gradient-to-r from-blue-900 to-pink-300 "></div>
+    </div>
+    <div id="page2" class="w-full h-screen bg-lime-400 flex justify-end items-center">
+        <div class="circle h-72 w-72 bg-black"></div>
+    </div>
+    <div id="page3" class="w-full h-screen flex justify-center items-center">
+        <div class="circle h-72 w-72  bg-lime-400"></div>
+    </div>
+    <div id="page4" class="w-full h-screen bg-lime-400 flex justify-start items-center">
+        <div class="circle h-72 w-72 bg-black"></div>
+    </div>
+    <div id="page5" class="w-full h-screen bg-lime-950 flex flex-col justify-center items-center text-6xl font-['gilroy']">
+        <h1 class="">Lorem ipsum dolor sit amet </h1>
+        <h1>consectetur adipisicing elit. </h1>
+        <h1>Accusantium, laudantium! Quas</h1>
+        <h1>dicta veritatis quo sapiente </h1>
+        <h1>expedita nihil voluptatum tempore, </h1>
+        <h1>officia molestiae nulla. Temporibus </h1>
+        <h1>dolorem exercitationem nobis quidem </h1>
+        <h1>sit eos obcaecati!</h1>
+       
+    </div>
+    <div id="page6" class=" w-full h-screen flex justify-start bg-lime-400 items-center  ">
+         <h1 class="font-semibold uppercase text-[30vw]">himanshu_JOSHI</h1>
+    </div>
+    <div class="page7 w-full h-screen flex justify-center items-center">
+         <h1 class="uppercase text-9xl text-center font-semibold text-lime-400">the end</h1>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
